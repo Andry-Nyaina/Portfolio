@@ -12,11 +12,11 @@ body{
 }
 div.cover{
     background: url("RESOURCES/cover_overlay.png") no-repeat center/100% 100%,url("RESOURCES/cover.jpg") no-repeat center/cover;
-    height: 360px;
+    height: 410px;
     position: relative;
 }
 img.cover-profile{
-    height: 100px;
+    height: 150px;
     position:relative;
     left: 50%;
     margin-left: -50px;
@@ -135,4 +135,12 @@ div.barre-verticale{
     background-color: var(--color1);
     margin-right: 8px;
 }
-
+.col-portfolio{
+    width: 47%;
+}
+div.frame{
+    margin: 30px 50px;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
