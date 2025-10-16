@@ -4,93 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andry Nyaina</title>
-    <style>
-        :root{
-            --color1: #D88584;
-            --color2: #F4F4F4;
-        }
-        body{
-            margin: 0;
-            font-family: Arial;
-        }
-        div.cover{
-            background: url("RESOURCES/cover_overlay.png") no-repeat center/100% 100%,url("RESOURCES/cover.jpg") no-repeat center/cover;
-            height: 360px;
-            position: relative;
-        }
-        img.cover-profile{
-            height: 100px;
-            position:relative;
-            left: 50%;
-            margin-left: -50px;
-            margin-top: 50px;
-        }
-        h1{
-            color: white;
-            text-align: center;
-            font-size: 42px;
-            margin-top: 10px;
-            margin-bottom: 0px;
-            margin-top: 5px;
-        }
-        div.cover p{
-            color: lightgray;
-            text-align: center;
-            font-size: 14px;
-            margin-top: 8px;
-        }
-        div.cover-contact{
-            /*background-color: #FF000080;*/
-            position: absolute;
-            top: 20px;
-            left: 10px;
-            border-left: 4px solid var(--color1);
-            padding-left: 8px;
-        }
-        div.cover-contact p{
-            text-align: left;
-            margin-top: 0px;
-            margin-bottom: 0;
-        }
-        div.cover-contact p:first-child{
-            margin-bottom: 15px;
-        }
-        div.cover-contact a{
-            color: white;
-            font-size: 14px;
-        }
-        a.contact-button{
-            color: var(--color1);
-            border: 3px solid var(--color1);
-            padding: 8px 20px;
-            text-decoration: none;
-            background-color: #00000040;
-            display: inline-block;
-            margin-top: 15px;
-            font-size: 14px;
-        }
-        a.contact-button:hover{
-            color: white;
-            border: 3px solid white;
-        }
-        div.section{
-            padding-left: 40px;
-            padding-right: 40px;
-            padding-top: 30px;
-            padding-bottom: 30px;
-        }
-
-        div.section-grise1{
-            background: url("RESOURCES/triangle2white.svg") no-repeat center bottom/100%;
-            background-color: var(--color2);
-            padding-bottom: 80px;
-        }
-        div.section-grise2{
-            background: url("RESOURCES/triangle1white.svg") no-repeat center top/100%;
-            background-color: var(--color2);
-            padding-top: 80px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- COUVERTURE -->
@@ -110,17 +24,37 @@
     </div>
     <!--sECTION GRISE 1-->
     <div class="section section-grise1">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae esse, maiores numquam nisi repellendus voluptates id neque. Neque qui in minima tenetur, recusandae voluptatum id amet dolorum necessitatibus possimus culpa iste aspernatur quae quisquam sequi facere error? Ea, autem pariatur.
+        <div class="separateur"></div>
+        <p><b>Développeur Python</b> orienté <b>automatisation</b> et <b>data</b>, je construis des <b>solutions web.</b> En <b>formation continue</b> : <b>Django, React et intégration d’IA appliquée</b> (LLM / prompts).</p>
     </div>
 
     <!--sECTION BLANCHE-->
     <div class="section">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, aut rerum ex molestiae quam doloribus similique quasi voluptatibus ea fugiat molestias fugit quo labore voluptas ullam quod dolore nam quae! Rem eligendi eius necessitatibus veritatis nihil id dolorum! Magnam qui ad incidunt, reprehenderit placeat molestiae! Beatae mollitia quos suscipit commodi.
+        <h2>En savoir plus</h2>
+        <img src="RESOURCES/profile02.png" class="col40">
+        <div class="col60 float-right" style="padding-left: 16px;">
+            <div class="text-avec-ligne-verticale">
+                <p>Passionné par la programmation et l’innovation, j’évolue dans le développement Python avec un intérêt marqué pour l’automatisation, le web et l’intelligence artificielle appliquée.<br><br>
+                Actuellement en formation continue sur Django et React, je conçois des projets orientés data et IA pratique (LLM, intégration intelligente).<br><br>
+                Mon objectif : construire des solutions modernes, efficaces et évolutives pour accompagner les entreprises et les indépendants dans leur transformation numérique.</p>
+                <a href="https://www.linkedin.com/in/andry-nyaina-510215324/" target="_blank">En savoir plus sur mon profil</a>
+            </div>
+        </div>
     </div>
 
     <!--sECTION GRISE 2-->
     <div class="section section-grise2">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae esse, maiores numquam nisi repellendus voluptates id neque. Neque qui in minima tenetur, recusandae voluptatum id amet dolorum necessitatibus possimus culpa iste aspernatur quae quisquam sequi facere error? Ea, autem pariatur.
+        <h2>Portfolio</h2>
+        <table style="width: 50%;">
+            <tr>
+                <td><div class="barre-verticale"></div></td>
+                <td><img style="width: 100%;" src="RESOURCES/project1small.jpg"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="center"><a href="#">Site web pour un restaurant</a></td>
+            </tr>
+        </table>
     </div>
 
     <!--sECTION BLANCHE-->
