@@ -144,3 +144,9 @@ div.frame{
     box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
     background-color: white;
 }
+div.frame p.frame-title{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
