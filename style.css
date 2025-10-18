@@ -16,11 +16,12 @@ div.cover{
     position: relative;
 }
 img.cover-profile{
-    height: 150px;
+    height: 100px;
     position:relative;
     left: 50%;
     margin-left: -50px;
     margin-top: 50px;
+    border-radius: 50%;
 }
 h1{
     color: white;
@@ -135,6 +136,7 @@ div.barre-verticale{
     background-color: var(--color1);
     margin-right: 8px;
 }
+
 .col-portfolio{
     width: 47%;
 }
