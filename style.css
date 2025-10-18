@@ -10,6 +10,11 @@ body{
     font-family: Arial;
     line-height: 1.5;
 }
+iframe{
+    width: 100%;
+    border: none;
+    height: 350px;
+}
 div.cover{
     background: url("RESOURCES/cover_overlay.png") no-repeat center/100% 100%,url("RESOURCES/cover.jpg") no-repeat center/cover;
     height: 410px;
@@ -80,7 +85,7 @@ div.section{
 }
 
 div.section-grise1{
-    background: url("RESOURCES/triangle2white.svg") no-repeat center bottom/100%;
+    background: url("RESOURCES/triangle2white.svg") no-repeat center bottom -1px/100%;
     background-color: var(--color2);
     padding-bottom: 100px;
 }
@@ -151,4 +156,38 @@ div.frame p.frame-title{
     text-align: center;
     margin-top: 5px;
     margin-bottom: 20px;
+}
+/*PORTFOLIO*/
+.portfolio-header{
+    height: 90px;
+    background: url(RESOURCES/header.jpg) no-repeat center/cover;
+    position: relative;
+}
+.portfolio-header-title{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    padding-top: 4px;
+    padding-left: 8px;
+}
+h1.portfolio{
+    color: black;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 10px;
+}
+h2.portfolio{
+    font-size: 26px;
+    font-weight: normal;
+    color: black;
+    margin-bottom: 0;
+}
+.portfolio-back{
+    color: var(--color1);
+    margin-top: -20px;
+}
+img.portfolio{
+    width: 70%;
+    max-width: 550px;
 }
